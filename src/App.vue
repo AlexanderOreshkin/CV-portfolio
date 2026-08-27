@@ -25,6 +25,5 @@ import Contact from './components/Contact.vue'
       <span><br>Email: oreshkin.alexander@gmail.com</span>
       <span><br>Tel: +7 (916) 175-68-57</span>
     </span>
-    <span>Built with Vue & SCSS</span>
   </footer>
 </template>
