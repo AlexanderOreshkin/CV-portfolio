@@ -4,6 +4,9 @@
       <div class="hero__content">
         <p class="eyebrow">Привет, я</p>
         <h1>Александр<br /><span>Орешкин</span></h1>
+        <div class="hero__photo--tablet">
+          <img src="../assets/images/image.jpeg" alt="Александр Орешкин" />
+        </div>
         <h2>Junior Frontend-разработчик</h2>
         <p class="hero__description">Развиваюсь во frontend-разработке и создаю свои проекты на Vue.js, JavaScript и SCSS.</p>
         <div class="hero__buttons">
