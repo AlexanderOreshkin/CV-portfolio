@@ -24,8 +24,8 @@ const projects = [
     description:
       'Приложение для ведения библиотеки фильмов.',
     tags: ['JavaScript', 'REST API', 'CSS'],
-    demo: 'https://your-demo-url.com',
-    github: 'https://github.com/your-username/task-manager'
+    demo: 'https://alexanderoreshkin.github.io/Films_library/',
+    github: 'https://github.com/AlexanderOreshkin/Films_library'
   }
 ]
 </script>
