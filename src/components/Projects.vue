@@ -20,7 +20,7 @@ const projects = [
   },
   {
     number: '03',
-    title: '<Библиотека фильмов>',
+    title: 'Библиотека фильмов',
     description:
       'Приложение для ведения библиотеки фильмов.',
     tags: ['JavaScript', 'REST API', 'CSS'],
