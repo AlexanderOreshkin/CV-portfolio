@@ -11,7 +11,7 @@ const projects = [
   },
   {
     number: '02',
-    title: 'Сайта магазина растений',
+    title: 'Сайт магазина растений',
     description:
       'Адаптивный дизайн сайта магазина растений ',
     tags: ['HTML', 'SCSS'],
@@ -20,10 +20,10 @@ const projects = [
   },
   {
     number: '03',
-    title: 'Менеджер задач',
+    title: '<Библиотека фильмов>',
     description:
-      'Приложение для создания и управления задачами с сохранением данных в LocalStorage.',
-    tags: ['JavaScript', 'Vue 3', 'LocalStorage'],
+      'Приложение для ведения библиотеки фильмов.',
+    tags: ['JavaScript', 'REST API', 'CSS'],
     demo: 'https://your-demo-url.com',
     github: 'https://github.com/your-username/task-manager'
   }
