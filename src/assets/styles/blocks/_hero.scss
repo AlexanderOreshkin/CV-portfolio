@@ -14,7 +14,7 @@
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
     align-items: center;
-    gap: 70px;
+    gap: 150px;
   }
 
   &__content {
@@ -24,7 +24,7 @@
   .eyebrow {
     margin-bottom: 16px;
     color: $accent;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 600;
     letter-spacing: 0.08em;
     text-transform: uppercase;
