@@ -1,0 +1,49 @@
+@use '../global/variables' as *;
+@use '../global/mixins' as *;
+
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 90px;
+
+  p {
+    color: $text-muted;
+    line-height: 1.8;
+  }
+
+  .lead {
+    margin-top: 0;
+    color: $text;
+    font-size: 1.4rem;
+  }
+
+  &__facts {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+    article {
+      display: grid;
+      grid-template-columns: 40px 1fr;
+      gap: 18px;
+
+      > span {
+        color: $accent;
+        font-family: monospace;
+      }
+
+      h3 {
+        margin: 0 0 8px;
+      }
+
+      p {
+        margin: 0;
+      }
+    }
+  }
+
+  @include tablet {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+}

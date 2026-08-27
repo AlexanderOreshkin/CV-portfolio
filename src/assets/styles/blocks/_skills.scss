@@ -1,0 +1,57 @@
+@use '../global/variables' as *;
+@use '../global/mixins' as *;
+
+.skills-section {
+  background: $surface;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+
+  @include tablet {
+    grid-template-columns: 1fr;
+  }
+}
+
+.skill-card {
+  padding: 32px;
+
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid $border;
+  border-radius: $radius;
+
+  transition: 0.25s ease;
+
+  &:hover {
+    transform: translateY(-4px);
+    border-color: rgba($accent, 0.4);
+  }
+
+  &__title {
+    margin: 0 0 25px;
+
+    color: $accent;
+    font-family: monospace;
+    font-size: 0.8rem;
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  li {
+    padding: 12px 0;
+
+    border-top: 1px solid $border;
+    color: $text-muted;
+
+    span {
+      margin-right: 10px;
+      color: $accent;
+    }
+  }
+}

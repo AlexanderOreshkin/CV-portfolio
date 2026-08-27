@@ -1,0 +1,38 @@
+@use '../global/variables' as *;
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 52px;
+  padding: 0 24px;
+
+  border: 1px solid $border;
+  border-radius: 999px;
+
+  font-weight: 600;
+
+  transition: 0.25s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+  }
+
+  &--primary {
+    background: $accent;
+    border-color: $accent;
+    color: $bg;
+
+    &:hover {
+      box-shadow: 0 12px 30px rgba(114, 242, 196, 0.18);
+    }
+  }
+
+  &--secondary {
+    &:hover {
+      color: $accent;
+      border-color: rgba($accent, 0.5);
+    }
+  }
+}
