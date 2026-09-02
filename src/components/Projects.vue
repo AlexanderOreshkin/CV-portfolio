@@ -4,7 +4,7 @@ const projects = [
     number: '01',
     title: 'Интернет-магазин',
     description:
-      'Интернет-магазин с каталогом товаров, фильтрацией и корзиной.',
+      'Интернет-магазин с каталогом товаров, фильтрацией и корзиной. Проект выполнен для десктопной версии сайта в рамках ТЗ финальной работы по JavaScript от Skillbox',
     tags: ['JavaScript', 'HTML', 'SCSS'],
     demo: 'https://alexanderoreshkin.github.io/skillbox_js_project/',
     github: 'https://github.com/AlexanderOreshkin/skillbox_js_project.git'
