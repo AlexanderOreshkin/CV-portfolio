@@ -1,5 +1,188 @@
-# Vue 3 + Vite
+# Александр Орешкин — Frontend Developer Portfolio
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Персональный сайт-портфолио и онлайн-резюме **Александра Орешкина**, Junior Frontend Developer.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+Сайт создан для демонстрации навыков, учебных и pet-проектов, опыта и текущего профессионального развития во frontend-разработке.
+
+🌐 **[Открыть портфолио](https://cv-portfolio-six-inky.vercel.app/)**
+
+💻 **[GitHub](https://github.com/AlexanderOreshkin)**
+
+---
+
+## ✨ О проекте
+
+Это одностраничный сайт-портфолио, разработанный с использованием **Vue 3** и **JavaScript**.
+
+Основная задача проекта — представить профессиональный профиль разработчика в современном и удобном формате, а также показать практические навыки работы с frontend-технологиями.
+
+На сайте представлены:
+
+* краткая информация обо мне;
+* навыки и используемые технологии;
+* опыт и профессиональный путь;
+* учебные и pet-проекты;
+* ссылки на GitHub и демонстрационные версии проектов;
+* контактная информация.
+
+---
+
+## 🛠️ Технологии
+
+### Frontend
+
+* **Vue 3**
+* **JavaScript (ES6+)**
+* **HTML5**
+* **SCSS / Sass**
+* **CSS3**
+
+### Инструменты
+
+* **Vite**
+* **Git**
+* **GitHub**
+* **npm**
+* **VS Code**
+
+### Deployment
+
+* **Vercel**
+
+---
+
+## 📌 Основные возможности
+
+* Адаптивная верстка для desktop, tablet и mobile
+* Компонентная архитектура Vue
+* Семантическая HTML-разметка
+* SCSS для организации и масштабирования стилей
+* Плавная навигация по секциям страницы
+* Адаптивное меню
+* Интерактивные элементы интерфейса
+* Карточки проектов с ссылками на GitHub и live-demo
+* Современный минималистичный UI
+* Разделение интерфейса на переиспользуемые Vue-компоненты
+
+---
+
+## 📂 Структура проекта
+
+```text
+CV-portfolio/
+├── src/
+│   ├── assets/
+│   │   ├── images/
+│   │   └── styles/
+│   │
+│   ├── components/
+│   │   ├── Header.vue
+│   │   ├── Hero.vue
+│   │   ├── About.vue
+│   │   ├── Skills.vue
+│   │   ├── Experience.vue
+│   │   ├── Projects.vue
+│   │   └── Footer.vue
+│   │
+│   ├── App.vue
+│   └── main.js
+│
+├── index.html
+├── package.json
+├── vite.config.js
+├── .gitignore
+└── README.md
+```
+
+> Названия компонентов можно скорректировать в соответствии с актуальной структурой проекта.
+
+---
+
+## 🚀 Запуск проекта
+
+### Клонирование репозитория
+
+```bash
+git clone https://github.com/AlexanderOreshkin/CV-portfolio.git
+```
+
+### Переход в директорию проекта
+
+```bash
+cd CV-portfolio
+```
+
+### Установка зависимостей
+
+```bash
+npm install
+```
+
+### Запуск development-сервера
+
+```bash
+npm run dev
+```
+
+После запуска приложение будет доступно по адресу:
+
+```text
+http://localhost:5173
+```
+
+---
+
+## 📦 Сборка проекта
+
+Для создания production-сборки:
+
+```bash
+npm run build
+```
+
+Для предварительного просмотра production-сборки:
+
+```bash
+npm run preview
+```
+
+---
+
+## 🌐 Live Demo
+
+Актуальная версия сайта размещена на **Vercel**:
+
+**https://cv-portfolio-six-inky.vercel.app/**
+
+---
+
+## 🎯 Цель проекта
+
+Проект является частью моего профессионального развития во frontend-разработке.
+
+В процессе создания портфолио я практикую:
+
+* разработку интерфейсов на Vue 3;
+* работу с JavaScript;
+* компонентный подход;
+* адаптивную верстку;
+* организацию SCSS;
+* работу с Git и GitHub;
+* деплой frontend-приложений;
+* улучшение UX и визуальной части интерфейсов.
+
+---
+
+## 👨‍💻 Автор
+
+**Александр Орешкин**
+
+Junior Frontend Developer
+
+Основной стек:
+
+`Vue 3` · `JavaScript` · `HTML5` · `SCSS` · `Vite` · `Git`
+
+---
+
+⭐ Если вам интересен проект, буду рад обратной связи и предложениям по улучшению.
