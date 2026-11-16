@@ -5,7 +5,9 @@
   @include container;
 
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 
   padding: 25px 0;
 
@@ -17,5 +19,10 @@
   @include mobile {
     flex-direction: column;
     gap: 8px;
+  }
+
+  &__inner {
+    display: flex;
+    gap: 10px;
   }
 }
